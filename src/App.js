@@ -1,23 +1,53 @@
-import logo from './logo.svg';
 import './App.css';
+import pic from "../src/DMA.jpg"
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="leftCol">
+        <div className="content">
+          <div className="img">
+          <img className='logo' src={pic} alt="" />
+          </div>
+          <div className="content-script">
+          <h1>DMA</h1>
+           <p>DIGITAL MARKETING AGENCY</p>
+          </div>
+        </div>
+        <div className="rest-content">
+        <h1>WELCOME</h1>
+         <p>Manage leads, sales activities, contact history,
+           multiple <br /> oppotunities all in one place
+         </p>
+        </div>
+      </div>
+      <div className="rightCol">
+        <div className="rightContent">
+        <h1>LOGIN</h1>
+        <div className="input-div">
+        <span>Email</span>
+        <input className="inp" type="text"  />
+        <span>Password</span>
+        <input className="inp" type="text"  />
+        <p  >Forget the Password?</p>
+        </div>
+        <button type="button" className="button">Submit</button>
+        <p className="pTag" > Or Sign In With </p>
+
+       <div className="footerIcon">
+        <InstagramIcon />
+        < FacebookIcon />  
+        < LinkedInIcon />
+        < TwitterIcon/>
+       </div>
+
+
+        </div>
+      </div>
     </div>
   );
 }
