@@ -2,6 +2,10 @@
 body{
     color: #fff;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 .f-div{
     display: flex;
 }
@@ -19,9 +23,47 @@ body{
     gap:40%;
 }
 .title-div h2{
-    color: #FCE22A;
-    padding-top: 10px;
+    color: #FFC107;
+    margin-top: 30px;
+    margin-right:30px;
 }
 .each-cont{
-    border-top: 3px solid #FCE22A;
+    border-top: 3px solid #FFC107;
+}
+.reob img{
+    width:105px;
+    margin-top:15px;
+    margin-left:15px;
+    padding: 20px 0px 20px 0px;
+
+}
+.left-content .list{
+    border-top: 3px solid #FFC107;
+    list-style: none;
+    padding: 30px 0px 30px 0px;
+}
+.left-content .list a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-left:30px ;
+    margin-right:30px ;
+    color: #FFC107;
+    text-align: center;
+
+}
+.left-content .list a .ListI{
+    position: relative;
+    top: 5px;
+    
+}
+.left-content .list a:hover{
+    background-color: #FFC107;
+    color: black;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 91%;
 }
