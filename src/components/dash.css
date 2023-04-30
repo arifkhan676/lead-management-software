@@ -1,0 +1,27 @@
+
+body{
+    color: #fff;
+}
+.f-div{
+    display: flex;
+}
+.left-div{
+    height: 100vh;
+    width: 340px;
+    position: relative;
+    top: 15px;
+    left:15px;
+    background-color: #212529 ;
+    border-radius: 0px 50px 0px 0px;
+}
+.title-div{
+    display: flex;
+    gap:40%;
+}
+.title-div h2{
+    color: #FCE22A;
+    padding-top: 10px;
+}
+.each-cont{
+    border-top: 3px solid #FCE22A;
+}
