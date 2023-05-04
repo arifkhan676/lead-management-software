@@ -1,0 +1,18 @@
+.title-div{
+    width: 50px;
+}
+.search_btn{
+    width: 300px;
+}
+.container{
+    display: flex;
+    position: relative;
+    top:50px;
+    gap:50%;
+}
+.Button{
+    background-color: #157347;
+}
+.d-flex{
+    gap:10px;
+}
