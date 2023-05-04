@@ -1,0 +1,22 @@
+body{
+    color: #fff;
+}
+p{
+    color: #fff;
+
+}
+Form{
+    color: #fff;
+
+}
+.container-fluid{
+    margin-top: 7%;
+}
+.myImg{
+    width: 100px;
+    border-radius:50px;
+    position: relative;
+    left:33%;
+    top: 15px;
+    margin-bottom: 3%;
+}

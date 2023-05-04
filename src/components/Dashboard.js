@@ -7,7 +7,6 @@ import ListIcon from '@mui/icons-material/List';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AllLeads from './AllLeads';
 
 import Dropdown from 'react-bootstrap/Dropdown';
 
@@ -29,7 +28,7 @@ function Dashboard(){
                <li className='list' > <a href="#"  > <ListIcon className='ListI' />
                <DropdownButton id="dropdown-basic-button" title="My Leads">
                  <Dropdown.Item href="/AllLeads">All leads</Dropdown.Item>
-                 <Dropdown.Item href="/">Import Leads</Dropdown.Item>
+                 <Dropdown.Item href="/ImportList">Import Leads</Dropdown.Item>
                  <Dropdown.Item href="/">New Leads</Dropdown.Item>
                  </DropdownButton>
                 <ArrowForwardIosIcon className='ListI' /> </a> </li>
