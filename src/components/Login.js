@@ -8,6 +8,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 function Login() {
   return (
+
     <div className="App">
       <div className="leftCol">
         <div className="content">
@@ -49,6 +50,7 @@ function Login() {
 
         </div>
       </div>
+
     </div>
   );
 }

@@ -3,9 +3,16 @@ import Form from 'react-bootstrap/Form';
 import "./AllLeads.css"
 import Button from 'react-bootstrap/esm/Button';
 import Table from 'react-bootstrap/Table';
-
+import { useNavigate } from 'react-router-dom';
 
 function AllLeads() {
+
+  const navigate = useNavigate();
+
+  const addUser =()=>{
+       navigate("/Createlist");
+  }
+
   return (
     <div className='Leads'>
       <div className="container">
@@ -18,7 +25,7 @@ function AllLeads() {
           />
           <Button variant="success" > Search </Button>
         </Form>
-        <Button>
+        <Button onClick={addUser}>
           <i class="fa fa-plus" aria-hidden="true"></i> Add User
         </Button>
       </div>
@@ -46,7 +53,7 @@ function AllLeads() {
             <td> xx </td>
             <td> 01811225515 </td>
             <td>Dhaka</td>
-          </tr>
+          </tr> 
         </tbody>
       </Table>
       </div>

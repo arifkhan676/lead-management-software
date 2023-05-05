@@ -4,7 +4,8 @@ import Login from './components/Login';
 import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AllLeads from './components/AllLeads';
-import ImportList from './components/ImportList';
+import Createlist from './components/Createlist';
+import Edit from './components/Edit';
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
        <Route path="/" element={<Dashboard />} ></Route>
          <Route path="/login" element={<Login />} ></Route>
          <Route path="/AllLeads" element={<AllLeads />} ></Route>
-         <Route path="/ImportList" element={<ImportList />} ></Route>
+         <Route path="/createlist" element={<Createlist />} ></Route>
+         <Route path="/edit" element={<Edit />} ></Route>
 
        </Routes>
 
