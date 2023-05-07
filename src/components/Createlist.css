@@ -14,7 +14,39 @@ Form{
     width: 100px;
     border-radius:50px;
     position: relative;
-    left:33%;
+    left:43%;
     top: 15px;
     margin-bottom: 3%;
+}
+.select{
+    color:#212529 ;
+    position: relative;
+    right: 120px;
+
+}
+.FormLabel{
+    color: #fff;
+}
+/*
+.yy{
+    position: relative;
+    width: 50px;
+}
+.xy{
+    position: relative;
+    width: 400px;
+
+}
+*/
+
+.yy{
+    margin-left: 50px;
+}
+.uu{
+    padding-left:270px ;
+    position: relative;
+    right: 100px;
+}
+.btn-sub{
+    margin-left: 60px;
 }
